@@ -1,0 +1,76 @@
+.userConfiguration{
+    width:625px!important;
+}
+.userConfiguration .selectInfo {
+    width: 156px;
+    border-color: transparent!important;
+    background: #F0F0F0;
+    outline: none;
+    height: 25px;
+    border-radius: 5px;
+}
+.userconfigPrivate{
+    padding: 0px 30px;
+    margin-right: 0!important;
+    box-sizing: border-box;
+}
+.user-config-user-name{
+    width:520px;
+}
+.edit-user-config-user-name{
+    width: 350px;
+}
+.user-config-user-name .userIdRole{
+    display: flex;
+}
+.user-config-con{
+    width: auto!important;
+}
+.user-config-con .iuputSpan{
+    width: 8px;
+    height: 20px;
+    background: #000;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.userConfiguration .el-dialog__header span {
+    padding-bottom: 10px!important;
+    padding: 0 20px;
+    border-bottom: 3px solid #f22b2b;
+}
+.userConfiguration{
+    margin-bottom: 0!important;
+}
+.groupTranfer{
+    display: flex;
+    justify-content: center;
+}
+.groupTranfer .ant-transfer-operation{
+    padding: 66px 0px;
+}
+
+.inputInfo .ant-btn > .anticon + span, .ant-btn > span + .anticon {
+     margin-left: 0px!important;
+}
+.inputInfo .ant-btn {
+    /*border-radius: 50%;*/
+     margin-right: 0px!important;
+}
+.EditBtn{
+    top: 0!important;
+}
+.adminWrap{
+    display: block;
+    width: 100%;
+    height: auto;
+    /*position: relative;*/
+}
+.wrap-con{
+    width: 577px;
+    height:200px;
+    position: fixed;
+    background: #eee;
+    opacity: .2;
+    cursor: not-allowed;
+    z-index: 999;
+}

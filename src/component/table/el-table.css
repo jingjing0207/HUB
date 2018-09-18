@@ -1,0 +1,6 @@
+.el-table tr:hover {
+    background: #edf7ff;
+}
+.gutter{
+    width: 0!important;
+}

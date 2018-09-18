@@ -1,0 +1,124 @@
+.queryGroupWrap{
+    width: 100%;
+    height: auto;
+    background: #fafcfd;
+    padding: 30px 40px;
+    box-sizing: border-box;
+}
+.HUBquerygroupPar{
+    width:100%;
+    display: flex;
+    position: relative;
+}
+.HUBquerygroupPar h3{
+    text-align: left;
+    margin: 0px !important;
+    text-indent: 20px;
+    line-height: 56px;
+}
+.query-con{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.querysearch{
+    width: 40%!important;
+    display: flex;
+    align-items: center;
+    line-height: 56px;
+}
+.querysearch input{
+    text-indent: 20px;
+    border-radius: 20px;
+    background: #f0f0f0;
+    border-color: #f0f0f0;
+}
+.btn{
+    display: flex;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.add-btn{
+    font-size: 22px;
+    background: #000!important;
+    color: #fff!important;
+    border-radius: 20px!important;
+    border-color: #000!important;
+    margin-right: 10px!important;
+}
+.data-loading{
+    height: 35px;
+}
+.select .el-input__inner{
+    background: #f22b2b!important;
+    color: #fff;
+    border-color: #f22b2b!important;
+    text-indent: 10px;
+    border-radius: 20px;
+}
+.search .el-icon-caret-top{
+    color: #fff!important;
+}
+.search .el-icon-search{
+    left: 0!important;
+    color: #f22b2b!important;
+}
+.warningBtm{
+    background: #8a47dd!important;
+    border-color: #8a47dd!important;
+}
+.gropTable{
+    background: #ffffff!important;
+}
+.el-table::before {
+    height: 0px!important;
+}
+.el-table::after {
+    width: 0px!important;
+}
+.MyDialogFooter{
+    text-align: center!important;
+}
+.MyDialogFooter button{
+    background: #000;
+    color: #fff;
+    border-color: #000;
+    border-radius: 20px;
+}
+.MyDialogFooter button:hover{
+    background: #000;
+    color: #fff;
+    border-color: #000;
+}
+.el-message-box__btns{
+    text-align: center!important;
+}
+.detailBtn:hover, .detailBtn:focus {
+    color: #fff;
+    background-color: #42d885;
+    border-color: #42d885;
+}
+.runBtn:hover, .runBtn:focus {
+    color: #fff;
+    background-color: #8a47dd;
+    border-color: #8a47dd;
+}
+.deleteBtn:hover, .deleteBtn:focus {
+    color: #fff;
+    background-color: #ff4646;
+    border-color: #ff4646;
+}
+.runBtn:hover, .runBtn:focus, .runBtn:active, .runBtn.active {
+    background: #8a47dd;
+    text-decoration: none;
+}
+
+.deleteBtn:hover, .deleteBtn:focus, .deleteBtn:active, .deleteBtn.active {
+    background: #ff4646;
+    text-decoration: none;
+}
+.detailBtn:hover, .detailBtn:focus, .detailBtn:active, .detailBtn.active {
+    background: #42d885;
+    text-decoration: none;
+}

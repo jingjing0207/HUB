@@ -1,0 +1,6 @@
+.sliderActiveClass{
+    background: #000;
+}
+.sliderActiveClass li{
+    color: #fff!important;
+}

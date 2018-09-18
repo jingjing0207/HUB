@@ -1,0 +1,62 @@
+#components-table-demo-drag-sorting tr.drop-over-downward td {
+    border-bottom: 2px dashed #1890ff;
+}
+
+#components-table-demo-drag-sorting tr.drop-over-upward td {
+    border-top: 2px dashed #1890ff;
+}
+.ant-table-thead > tr > th {
+    background: #000;
+    text-align: center;
+    color: #fff;
+    border-bottom: 1px solid transparent!important;
+    font-size: 12px;
+    font-weight: bolder;
+    height: 40px;
+}
+.ant-table-thead > tr > th, .ant-table-tbody > tr > td {
+    padding: 5px 10px;
+    border-right: 1px solid #fff;
+}
+.ant-table table {
+    text-align: center;
+    font-size: 12px;
+    color: #000;
+}
+.ant-table-tbody > tr > td {
+    border-bottom: 1px solid transparent;
+}
+.ant-btn{
+    border-radius: 20px;
+    margin-right: 8px;
+}
+.ant-btn span{
+    /*line-height: 30px;*/
+    text-align: center;
+
+}
+.runBtn{
+    background: #8a47dd;
+    border-color: #8a47dd;
+}
+.detailBtn:hover{
+    color: #fff;
+}
+.ant-btn-sm {
+    /*width: 80.75px;*/
+    height: 30px;
+    font-size: 14px;
+    color: #fff;
+}
+.detailBtn{
+    background: #42d885!important;
+    border-color: #42d885!important;
+}
+.deleteBtn{
+    background: #ff4646;
+    border-color: #ff4646;
+}
+.queryname{
+    display: flex;
+    flex-direction: column;
+}

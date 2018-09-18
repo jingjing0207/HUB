@@ -1,0 +1,26 @@
+.run-con-bot table{
+    width: 100%;
+}
+.run-con-bot thead{
+    background: #000;
+}
+.run-con-bot thead th{
+    padding: 5px;
+    text-align: center;
+}
+.run-con-bot thead th h2{
+    font-weight: bold;
+    font-size: 13px;
+    color: #fff;
+}
+.run-con-bot thead th h2 span{
+    display: inline-block;
+    width: 6px;
+    height: 20px;
+    background: #fff;
+    margin-right: 5px;
+    vertical-align: bottom;
+}
+.run-con-bot tbody tr td{
+    text-align: center;
+}

@@ -1,0 +1,9 @@
+.listClass .report-con{
+    background: #000;
+}
+.listClass .report-con li{
+    color:#fff
+}
+.detailBtn{
+    border-radius: 20px!important;
+}

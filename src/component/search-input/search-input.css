@@ -1,0 +1,46 @@
+.commonInput {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.commonInput .el-icon-search{
+    position: absolute;
+    right: 6px;
+    cursor: pointer;
+}
+.commonInput .ant-select-selection__rendered{
+    border-radius: 23px;
+    background-color: #f0f0f0;
+}
+.commonInput .ant-select-selection__rendered{
+     display: block;
+     margin-left: 0px;
+     margin-right: 0px;
+     position: relative;
+    line-height: 35px;
+}
+.commonInput .ant-select-selection {
+     border-bottom-color: transparent!important;
+}
+.commonInput .ant-select-selection__placeholder, .ant-select-search__field__placeholder {
+    left: 20px;
+}
+.commonInput .ant-select-selection-selected-value {
+    text-indent: 20px;
+}
+.commonInput .ant-select-search--inline {
+    position: absolute;
+    left: 20px;
+}
+.commonInput .ant-select-selection--single{
+    height: 35px;
+}
+.commonInput .ant-select-arrow{
+    color: transparent!important;
+}
+.commonInput .searchIcon{
+    position: absolute;
+    right: 10px;
+    color: #bfbfbf;
+    /*top:13px;*/
+}

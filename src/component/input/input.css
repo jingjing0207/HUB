@@ -1,0 +1,36 @@
+.inputPar{
+    min-width: 192px!important;
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    /*align-items: flex-end;*/
+    /*margin: 5px 10px 5px 3px;*/
+}
+.current-search-input{
+    overflow: hidden;
+}
+.current-left-par1{
+}
+.leftPar1{
+    width: 8px;
+    height: 29px;
+    background: #000;
+    float: left;
+    margin-left: 3px;
+}
+.spanLabel{
+    color: #000;
+    text-align: left!important;
+    display: block;
+    text-indent: 10px;
+    font-size: 12px;
+}
+.rightPar1{
+    margin:0 7px!important;
+    min-width: 183px;
+}
+.rightPar1 .ant-form-item{
+    margin-bottom: 0!important;
+}
+.rightPar1 .ant-col-offset-2{
+    margin-left: 0!important;
+}

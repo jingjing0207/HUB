@@ -1,0 +1,12 @@
+.ant-table-thead > tr > th.ant-table-column-sort {
+    background: #000;
+}
+.ant-table-column-sorter{
+    color: #fff;
+}
+.ant-table-column-sorter-up.on .anticon-caret-up, .ant-table-column-sorter-down.on .anticon-caret-up, .ant-table-column-sorter-up.on .anticon-caret-down, .ant-table-column-sorter-down.on .anticon-caret-down {
+    color: #f22b2b;
+}
+.anticon-caret-up:hover,.anticon-caret-up:focus,.anticon-caret-up:active{
+    color: #f22b2b;
+}

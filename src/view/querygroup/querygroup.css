@@ -1,0 +1,229 @@
+.queryGroupWrap{
+    width: 100%;
+    height: auto;
+    background: #fafcfd;
+    padding: 30px 40px;
+    box-sizing: border-box;
+}
+.HUBquerygroupPar{
+    width:100%;
+    display: flex;
+    background: #fff;
+    position: relative;
+}
+.HUBquerygroupPar h3{
+    text-align: left;
+    margin: 0 !important;
+    text-indent: 20px;
+    line-height: 56px;
+}
+.query-con{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.querysearch{
+    width: 40%!important;
+    display: flex;
+    align-items: center;
+    line-height: 56px;
+}
+.querysearch input{
+    text-indent: 20px;
+    border-radius: 20px;
+    background: #f0f0f0;
+    border-color: #f0f0f0;
+}
+.addBtn{
+    width: 20%!important;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 22px;
+    background: #000!important;
+    color: #fff!important;
+    border-radius: 25px!important;
+    border-color: #000!important;
+}
+.select .el-input__inner{
+    background: #f22b2b!important;
+    color: #fff;
+    border-color: #f22b2b!important;
+    text-indent: 10px;
+    border-radius: 20px;
+}
+.HUBqueryanalysisPar .el-icon-caret-top{
+    color: #fff!important;
+}
+.search .el-icon-search{
+    left: 0!important;
+    color: #f22b2b!important;
+}
+.warningBtm{
+    background: #8a47dd!important;
+    border-color: #8a47dd!important;
+}
+.gropTable{
+    background: #ffffff!important;
+}
+.el-table::before {
+     height: 0!important;
+}
+.el-table::after {
+    width: 0!important;
+}
+.MyDialogFooter{
+    text-align: center!important;
+}
+.MyDialogFooter button{
+    background: #000;
+    color: #fff;
+    border-color: #000;
+    border-radius: 20px;
+}
+.MyDialogFooter button:hover{
+    background: #000;
+    color: #fff;
+    border-color: #000;
+}
+.queryGroupDialog{
+    width: 70%!important;
+    top: 3% !important;
+}
+.dialog-con{
+    /*width:100%;*/
+    display: flex;
+    justify-content: space-between;
+}
+.dialog-content-left{
+    width: 30%;
+    border:1px solid #ccc;
+    box-sizing: border-box;
+    /*padding: 5px 10px;*/
+}
+.dialog-content-right{
+    width: 70%;
+    border:1px solid #ccc;
+    border-left-color: transparent!important;
+    box-sizing: border-box;
+    text-align: left!important;
+    padding: 3% 0.6%;
+}
+.dialog-content-left h3{
+    color: #000;
+    line-height: 40px;
+    border-bottom: 5px solid #f22b2b;
+}
+.addList{
+    padding:20px;
+    /*padding-bottom: 30px!important;*/
+}
+.dialog-content-right .el-transfer-panel .el-transfer-panel__header{
+    font-size: 8px!important;
+    color: #f22b2b!important;
+}
+.dialog-content-right .el-checkbox__label span{
+    font-size: 12px!important;
+}
+.dialog-content-right .el-transfer-panel .el-checkbox__inner{
+    border-radius: 50%!important;
+    border: 1px solid #f22b2b;
+}
+.dialog-content-right .el-checkbox__input.is-checked .el-checkbox__inner,.dialog-content-right el-checkbox__inner {
+    background-color: #f22b2b;
+    border-color: #f22b2b;
+}
+.dialog-content-right .el-checkbox__input.is-indeterminate .el-checkbox__inner {
+    background-color: #f22b2b;
+    border-color: #f22b2b;
+}
+.run-con{
+    width: 100%;
+    position: relative;
+}
+.run-con-header{
+    width: 100%;
+    height: 30px;
+    background: #000;
+    display: flex;
+}
+.run-con-header h2{
+    font-size: 12px;
+    width: 50%;
+    color: #fff;
+    line-height: 30px!important;
+    margin: 0!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.run-con-header h2 span{
+    width: 5px;
+    height: 22px;
+    display: inline-block;
+    background: #fff;
+    margin: 4px 13px;
+}
+.querRun .el-dialog__body{
+    padding: 30px 0!important;
+}
+.run-con-bot{
+    width: 100%;
+    /*height: 50px;*/
+}
+.run-con-bot table tr{
+    width: 100%!important;
+}
+.querydetail{
+    width: 60%!important;
+}
+.tableCont .el-dialog{
+    margin-bottom: 0!important;
+}
+.dialog-content-right .el-transfer-panel {
+    width: 250px!important;
+}
+.dialog-content-right .el-transfer-panel__body {
+    height: 380px!important;
+}
+.dialog-content-right .el-transfer-panel__list.is-filterable {
+    height: 350px!important;
+}
+.detailTransfer{
+    width: auto;
+    height: auto;
+    position: relative;
+}
+.editDiv{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #eef1f6;
+    opacity: .5;
+    z-index: 9999;
+    cursor: not-allowed;
+    border-radius: 10px;
+    border-color: #d1dbe5;
+    box-shadow: 0 5px 6px rgba(0,0,0,.12), 0 0 6px rgba(0,0,0,.04);
+}
+.editBtn{
+    margin-bottom: 30px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.editBtn button{
+    float: right;
+    /*background: #000!important;*/
+    /*border-color: #000!important;*/
+}
+.detailTransfer .el-transfer-panel__empty,.queryGroupDialog .el-transfer-panel__empty{
+    color: transparent!important;
+}
+.runModal .ant-modal-body{
+    min-height: 200px;
+}
+.notPermission{
+    /*line-height: ;*/
+}

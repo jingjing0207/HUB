@@ -1,0 +1,67 @@
+.mydialogCon .el-dialog__header span{
+    padding-bottom: 10px!important;
+    padding:0 20px;
+    border-bottom: 3px solid #f22b2b;
+}
+.mydialogCon .el-dialog__header{
+    padding-bottom: 20px!important;
+}
+.mydialogCon .el-dialog{
+    border-radius: 15px!important;
+}
+.mydialogCon .el-dialog__body{
+    padding:30px 40px!important;
+}
+.mydialogCon .el-dialog__headerbtn .el-icon-close{
+    color: #000!important;
+}
+.selectList{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+.mydialogCon{
+    width: 35%!important;
+}
+
+.inputList{
+    width:100%;
+    display: flex;
+    justify-content: start;
+}
+/*.saveBtn{*/
+    /*width: 120px;*/
+    /*line-height: 40px;*/
+    /*font-size: 18px!important;*/
+    /*font-weight: bolder;*/
+/*}*/
+.mydialogCon .el-dialog__title{
+    font-size: 18px!important;
+}
+.changeInputWidth .inputPar{
+    width: 400px!important;
+}
+.changeInputWidth .rightPar1{
+    width: 100%;
+}
+.ant-modal-footer {
+    border-top-color:transparent;
+}
+.sqlSpan{
+    margin-bottom: 5px;
+}
+.sqlClass{
+    margin-left: 3px;
+}
+.sqlStatement{
+    margin-top: 10px;
+}
+.changeInputWidth .commonInput .ant-select-selection__rendered {
+    border-radius: 0px!important;
+    background-color: #fff!important;
+    width: 372px!important;
+    border-bottom:1px solid #f0f0f0;
+}
+.changeInputWidth .commonInput .searchIcon{
+    display: none;
+}

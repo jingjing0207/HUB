@@ -1,0 +1,139 @@
+.monitoringWrap{
+    width: 100%;
+    height: auto;
+    background: #fafcfd;
+    padding: 30px 40px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+.moni-left{
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.moni-left-top{
+    width: 100%;
+    height: 290px;
+    display: flex;
+    justify-content: space-between;
+}
+.moni-left-01{
+    width:40%;
+}
+.moni-left-02{
+    width: 58%;
+}
+.moni-left-01 img{
+    /*width: 100%;*/
+    height: 100%;
+}
+.moni-left-02 img{
+    width: 100%;
+    height: 100%;
+}
+.moni-left-bottom{
+    width: 100%;
+    background: #fff;
+    margin-top: 20px;
+}
+.moni-right{
+    width: 38%;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+}
+.moni-right h3{
+    font-family: LeelawadeeUI-Bold;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    /*line-height: 31px;*/
+    letter-spacing: 1px;
+    color: #000000;
+    text-align: left;
+    text-indent: 16px;
+}
+.moni-right-nav{
+}
+.moni-right-con{
+    width: 100%;
+    flex: 1;
+}
+.el-table{
+    border: none!important;
+}
+.el-table th {
+    background-color: #000!important;
+}
+.table__header-wrapper thead div {
+}
+.el-table__footer-wrapper thead div, .el-table__header-wrapper thead div {
+    background-color: #000!important;
+    color: #fff!important;
+}
+.el-table td, .el-table th {
+    text-align: center!important;
+    font-size: 12px!important;
+}
+.el-table--border td, .el-table--border th {
+    border-right: 1px solid transparent!important;
+}
+.el-table td, .el-table th.is-leaf {
+    border-bottom: 1px solid transparent!important;
+}
+.green{
+    color:#30f930;
+}
+.red{
+    color:#fd5679;
+}
+.successBtm{
+    border-radius: 15px!important;
+}
+.HUBqueryanalysisPar{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+.HUBqueryanalysisPar h3{
+    margin: 0px !important;
+    line-height: 50px;
+}
+.search{
+    width: 50%!important;
+    display: flex;
+    align-items: center;
+}
+.search input{
+    text-indent: 20px;
+    border-radius: 20px;
+    background: #f0f0f0;
+    border-color: #f0f0f0;
+    margin: 10px 0;
+}
+.select{
+    width: 15%!important;
+    margin: 10px 0;
+    color: #fff!important;
+}
+.HUBqueryanalysisPar .left-con{
+    width: 70% !important;
+    display: flex;
+    justify-content: space-between;
+}
+.select .el-input__inner{
+    background: #f22b2b!important;
+    color: #fff;
+    border-color: #f22b2b!important;
+    text-indent: 10px;
+    border-radius: 20px;
+}
+.search .el-icon-caret-top{
+    color: #fff!important;
+}
+.search .el-icon-search{
+    left: 0!important;
+    color: #f22b2b!important;
+}

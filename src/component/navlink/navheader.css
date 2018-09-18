@@ -1,0 +1,141 @@
+.navWrap{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    border-bottom: 1px solid #ddd;
+}
+.navLeft{
+    width: 15%;
+    padding: 8px 18px;
+    margin-right: 28px;
+    display: flex;
+    align-content: center;
+}
+.navLeft img{
+    height: 100%;
+    width: 100%;
+}
+.navCenter{
+    width: 60%;
+    margin: 0!important;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0!important;
+
+}
+.navCenter a{
+    color: #000;
+    text-decoration: none;
+}
+.navCenter a li{
+    height: 60px;
+    padding-top: 10px!important;
+    padding:0 15px;
+}
+.personalInfo{
+    cursor: pointer;
+    position: relative;
+}
+.navRight{
+    flex:1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding:0 10px;
+}
+.personal-con{
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+.personal-con img{
+    border-radius: 50%;
+    margin-right: 10px;
+    float: left;
+}
+.personal-div{
+    width: auto;
+    height: 100%;
+    float: left;
+}
+.header{
+    width: 27px;
+    height: 100%;
+    float: left;
+}
+.headerPic{
+    width: 100%;
+    height: 50px;
+    border-radius: 50%;
+    /*margin:0  20px;*/
+}
+.singOut{
+    width: 100px;
+    background: #fff;
+    position: absolute;
+    right: 0;
+    z-index: 9999;
+}
+.singOut li{
+    border: 1px solid #F0F0F0;
+    padding: 6px 0;
+    font-size: 14px;
+}
+.singOut label{
+    color: #000c17;
+    cursor: pointer;
+}
+.personal-con img{
+
+}
+.navRight h5{
+    float: left;
+    min-width: 100px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: bolder;
+    line-height: 30px;
+    vertical-align: middle;
+}
+.blackH5{
+    color: #000;
+}
+.redH5{
+    color: #f22b2b;
+}
+.navCenterImg span{
+    font-size: 30px!important;
+}
+.navCenterImg p{
+    font-size: 14px!important;
+    margin: 0px;
+    padding-top: 10px;
+}
+.selectCon{
+    margin-left: 10px!important;
+    border-color: transparent!important;
+    border-bottom-color: #f0f0f0!important;
+}
+
+.selectCon .el-input__icon{
+    color: #f22b2b!important;
+}
+.bgColor{
+    background: #f22b2b;
+    color: #fff;
+}
+.logout{
+    height: 20px!important;
+    margin-left: 10px;
+    float: right;
+}
+.logout-div{
+    /*width: 200px;*/
+    float: left;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    justify-content: flex-end;
+}

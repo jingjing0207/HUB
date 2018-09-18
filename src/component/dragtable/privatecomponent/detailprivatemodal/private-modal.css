@@ -1,0 +1,6 @@
+.detailModal{
+    width: 945px !important;
+}
+.detailModal .ant-modal-body .dialog-con{
+    position: relative;
+}

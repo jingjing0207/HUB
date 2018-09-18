@@ -1,0 +1,207 @@
+.queryGroupWrap{
+    width: 100%;
+    height: auto;
+    background: #fafcfd;
+    padding: 30px 40px;
+    box-sizing: border-box;
+}
+.HUBquerygroupPar{
+    width:100%;
+    display: flex;
+    position: relative;
+}
+.HUBquerygroupPar h3{
+    text-align: left;
+    margin: 0px !important;
+    text-indent: 20px;
+    line-height: 56px;
+}
+.query-con{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.querysearch{
+    width: 40%!important;
+    display: flex;
+    align-items: center;
+    line-height: 56px;
+}
+.querysearch input{
+    text-indent: 20px;
+    border-radius: 20px;
+    background: #f0f0f0;
+    border-color: #f0f0f0;
+}
+.addBtn{
+    width: 20%!important;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 22px;
+    background: #000!important;
+    color: #fff!important;
+    border-radius: 25px!important;
+    border-color: #000!important;
+}
+.select .el-input__inner{
+    background: #f22b2b!important;
+    color: #fff;
+    border-color: #f22b2b!important;
+    text-indent: 10px;
+    border-radius: 20px;
+}
+.search .el-icon-caret-top{
+    color: #fff!important;
+}
+.search .el-icon-search{
+    left: 0!important;
+    color: #f22b2b!important;
+}
+.viewBtm{
+    background: #42d885!important;
+    border-color: #42d885!important;
+    border-radius: 20px!important;
+}
+.viewNotBtm{
+    background: #eee!important;
+    border-color: #eee!important;
+    border-radius: 20px!important;
+}
+.downloadBtm{
+    background: #50bfff!important;
+    border-color: #50bfff!important;
+    border-radius: 20px!important;
+}
+.downloadNotBtm{
+    background: #eee!important;
+    border-color: #eee!important;
+    border-radius: 20px!important;
+}
+.gropTable{
+    background: #ffffff!important;
+}
+.el-table::before {
+    height: 0px!important;
+}
+.el-table::after {
+    width: 0px!important;
+}
+.MyDialogFooter{
+    text-align: center!important;
+}
+.MyDialogFooter button{
+    background: #000;
+    color: #fff;
+    border-color: #000;
+    border-radius: 20px;
+}
+.MyDialogFooter button:hover{
+    background: #000;
+    color: #fff;
+    border-color: #000;
+}
+.successBtn{
+    border-radius: 24px!important;
+}
+.reportModal{
+    width: 98%!important;
+}
+.havenDownload{
+    background: #8a47dd!important;
+    border-color: #8a47dd!important;
+}
+:root .ant-table-column-sorter .anticon-caret-up, :root .ant-table-column-sorter .anticon-caret-down{
+    font-size: 14px;
+}
+.down-search .ant-select{
+    /*width: 260px!important;*/
+}
+
+
+
+.demo-infinite-container {
+    border: 1px solid #e8e8e8;
+    border-radius: 4px;
+    overflow: auto;
+    padding: 8px 8px;
+    height: 400px!important;
+}
+.demo-loading-container {
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+.ant-list-header {
+    display: flex;
+    /*position: fixed;*/
+    /*justify-content: space-between;*/
+}
+.ant-list-item, .ant-list-header{
+    /*width: 5600px!important;*/
+}
+.ant-list-item .ant-list-item-meta:first-child, .ant-list-header .ant-list-item-meta:first-child{
+    width: 100px;
+}
+.demo-infinite-container{
+    position: relative;
+}
+.ant-list-header .ant-list-item-meta-description {
+    font-weight: 600;
+    color: #000;
+    /*width: 250px;*/
+    margin: 0 5px;
+    font-size: 16px;
+    /*top: 0;*/
+}
+.ant-list-item-meta-description {
+    color: #000;
+    font-size: 14px;
+    line-height: 22px;
+    /*width: 250px;*/
+    /*display: flex;*/
+    /*justify-content: center;*/
+    text-align: center;
+    margin: 0 5px;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+.ant-list-split .ant-list-item {
+    /*border-bottom: none;*/
+}
+.demo-loading-container .ant-list-item:first-child .ant-list-item-meta-description{
+    font-weight: bolder;
+    font-size: 18px;
+}
+.ant-list-split .ant-list-header{
+    /*border: none;*/
+}
+
+
+.ant-pagination-options .ant-select-selection {
+    border-color: #d9d9d9;
+    /*border-bottom-color: #d9d9d9;*/
+}
+.select-con{
+    display: flex;
+    align-items: center;
+    float: right;
+    margin-left: 20px;
+}
+.select-con .ant-select{
+    width: 80px!important;
+}
+.select-con .ant-select-selection {
+    border-color: #d9d9d9;
+    border-bottom-color: #d9d9d9!important;
+    background: #f0f0f0;
+}
+.report-header-con{
+    justify-content: space-between;
+}
+.sortLabel{
+    font-size: 14px;
+    margin-right: 10px;
+}

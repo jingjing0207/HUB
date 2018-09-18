@@ -1,0 +1,35 @@
+html,body,div,p,form,ul,li,ol,dl,dt,dd,table,tr,td,th,hr,h1,h2,h3,h4,h5,h6,img,input{
+  margin:0;
+  padding:0;
+}
+a{
+  display: block;
+  text-decoration:none;
+  color: inherit;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+body{
+  font-family:"微软雅黑",Arial;
+  font-size: 16px;
+}
+ul,li{
+  list-style:none;
+}
+img{
+  border:none;
+  display: block;
+}
+input{
+  outline: none;
+  border:none;
+}
+.el-dialog__footer .el-button{
+  width: 130px;
+  font-size: 16px!important;
+}
+.selectInfo option{
+  font-size: 12px!important;
+}
+h1,h2,h3,h4,h5,h6{
+  font-weight: bolder;
+}

@@ -1,0 +1,15 @@
+.sliderWrap{
+    width: 270px;
+    height: auto;
+    min-height: 520px;
+    margin-right: 15px;
+    background: url('../../../../utils/image/sliderBg.png') #fff no-repeat bottom left ;
+    background-size: 100% auto;
+}
+.sliderWrap li{
+    padding: 16px 10px;
+    font-size: 13px;
+    font-weight: bolder;
+    color: #999;
+    margin: 7px 0;
+}

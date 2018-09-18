@@ -1,0 +1,190 @@
+.userConfig{
+    width: 60% !important;
+}
+.user-config{
+    margin-top: 10px;
+}
+.userEditBtn{
+    background: #EFA336!important;
+    border-color: #EFA336!important;
+}
+.spaceLabel{
+    display: inline-block;
+    width: 156px;
+}
+.radioBtn {
+    text-align: left;
+    padding-left: 10px;
+    display: flex;
+    /*flex-wrap: wrap;*/
+    justify-content: space-around;
+}
+.radioBtn div h4{
+    font-weight: bold!important;
+}
+.radioBtn .ant-checkbox-group .ant-checkbox-group-item{
+    font-size: 13px;
+    color: #999;
+    display: block!important;
+}
+.radioBtn .ant-radio-group span{
+    font-size: 12px;
+    color: #000;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+.radioBtn .el-radio{
+    margin-bottom: 8px;
+}
+.radioBtn .ant-checkbox-group .ant-checkbox-group-item .ant-checkbox .ant-checkbox-input{
+    border-radius: 50% !important;
+}
+.radioBtn .el-radio+.el-radio {
+     margin-left: 0!important;
+}
+.switchDiv{
+    display: inline-block;
+    width: 156px;
+    float: right;
+}
+.backup-Div{
+    display: flex;
+    float: right;
+    /*position: relative;*/
+}
+.backup_P{
+    /*display: inline-block;*/
+    min-width: 128px!important;
+}
+.icon-add{
+    display: inline-block!important;
+    /*position: absolute;*/
+    line-height: 25px;
+    margin-left: 10px;
+    font-size: 12px;
+    cursor: pointer;
+    color: #f22b2b;
+}
+.selectInfo .ant-select-selection {
+    background-color: #f0f0f0;
+    font-size: 12px;
+}
+.backupUser{
+    width: 100%;
+    height: auto;
+    /*border:1px solid #eee;*/
+    padding: 0 20px;
+}
+.userconfigModalContent{
+    padding: 10px 43px;
+}
+.user-con-modal{
+    width: 655px!important;
+}
+.user-modal-top{
+    padding: 0 80px;
+}
+.userIdRole .leftPar1{
+    display: none;
+}
+.user-modal-top .userIdRole .inputPar{
+    min-width: 148px!important;
+    display: inline-block;
+    float: right;
+    margin: 0!important;
+}
+.common-user{
+    margin-right: 39px;
+}
+.user-modal-top .userIdRole  .ant-form-explain{
+    width: 156px;
+}
+.disable-input{
+    cursor: not-allowed;
+}
+.upload-con p{
+    line-height: 40px;
+    color: #000;
+    font-size: 16px;
+    /*text-indent: 23px;*/
+}
+.select-file-con{
+    /*text-align: right;*/
+    margin:10px 20px;
+}
+.upload-btn{
+
+}
+.select-file-con .ant-upload-list-item{
+    height: 30px;
+    /*border-bottom: 1px solid #eee;*/
+}
+.select-file-con .ant-upload-list-item-info{
+    float: left;
+}
+.select-file-con .ant-upload-select{
+    float: right;
+    vertical-align: middle;
+}
+.select-file-con .ant-upload-list-item  {
+    width: 400px;
+    border-bottom: 1px solid #e2dede;
+}
+.select-file-con span{
+    /*display: flex;*/
+    /*flex-direction: row-reverse;*/
+}
+.select-file-con .tilte{
+    /*font-size: 18px;*/
+}
+.upload-modal{
+    width: 780px!important;
+}
+.upload-demo-start {
+    margin-top: 16px;
+}
+.footer-btn{
+    text-align: center;
+    margin-top: 20px;
+}
+.downloadTemplate{
+    display: inline-block;
+    font-size: 14px;
+    color: #40a9ff;
+    /*text-decoration: #40a9ff;*/
+}
+.downloadTemplate:hover .downloadTemplate:active{
+    /*text-decoration: #40a9ff!important;*/
+}
+.mustWriteUser{
+    color: red;
+    font-size: 16px;
+}
+.userIdRole .mustWrite{
+    display: none;
+}
+.userSearch{
+    width: 310px!important;
+    z-index: 99;
+}
+.userSearch .ant-select-selection__rendered{
+    /*border-top-left-radius: 0!important;*/
+    /*border-bottom-left-radius: 0!important;*/
+}
+.userSearch .ant-select-selection{
+    height: 35px;
+    background: #f0f0f0;
+    border: 0 !important;
+    border-top-right-radius: 23px;
+    border-bottom-right-radius: 23px;
+}
+.selectType .ant-select-selection{
+    height: 35px;
+    border-radius: 0;
+    border-top-left-radius: 23px;
+    border-bottom-left-radius: 23px;
+}
+.userSearch  .ant-select-selection-selected-value{
+    font-size: 12px;
+    padding-top: 3px;
+}

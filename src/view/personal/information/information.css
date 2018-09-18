@@ -1,0 +1,234 @@
+.pernalWrap{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 30px 40px;
+    background: #FAFCFD;
+    display: flex;
+}
+.informationSlider{
+    flex: 1;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+}
+.personalHeaderPic{
+    width: 100%;
+    text-align: center;
+}
+.headerCon{
+    width: 420px;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 10px;
+    /*background:url("../../../utils/image/headerPicBg.png") no-repeat center;*/
+    background-size:100% 100%;
+}
+.header-content{
+    width: 90px;
+    height: 90px;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 10px;
+    position: relative;
+}
+.header-content .fa-pencil{
+    font-size: 22px!important;
+    color: #f22b2b!important;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.headerImg{
+    width: auto;
+    padding-top: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.headerImg img{
+    width: 100%;
+    height: 100%;
+}
+.headerImg p{
+    font-size: 14px;
+   font-weight: bolder;
+}
+.pernalInformation{
+    width: 720px;
+    margin: 20px auto 0;
+    flex: 1;
+    text-align: left;
+}
+.inputInfo{
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.secondInfo{
+    margin-left: 18px;
+}
+/*/ className="iuputSpan"*/
+.inputInfo .iuputSpan,.inputInfo p{
+    display: inline-block;
+}
+.inputInfo .iuputSpan{
+    width: 8px;
+    height: 20px;
+    background: #000;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.inputInfo label{
+    font-size: 14px;
+}
+.inputInfo p{
+    font-size: 12px;
+    min-width: 200px;
+    width: auto;
+    height: 25px;
+    background: #F0F0F0;
+    line-height: 25px;
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: middle;
+}
+.inputInfo p li{
+     float: left;
+    text-indent: 15px;
+ }
+.inputInfo p e{
+ }
+.inputInfo input{
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    background: #F0F0F0;
+    text-align: center;
+    font-size: 12px;
+}
+.addInfoBtn{
+    height: 27px;
+    border-radius: 5px;
+    width: 187px!important;
+    background: #000!important;
+    color: #fff!important;
+    cursor: pointer;
+    font-size: 12px!important;
+    padding: 5px 5px!important;
+    border: transparent!important;
+}
+.disableBtn{
+    height: 27px;
+    border-radius: 5px;
+    width: 187px!important;
+    color: #ccc!important;
+    cursor: pointer;
+    font-size: 12px!important;
+    padding: 5px 5px!important;
+    border: transparent!important;
+}
+.revoleInfoBtn{
+    height: 27px;
+    border-radius: 5px;
+    width: 187px!important;
+    background: #f22b2b!important;
+    color: #fff!important;
+    cursor: pointer;
+    font-size: 12px!important;
+    padding: 5px 5px!important;
+    border: transparent!important;
+}
+.addInfoDialog .el-dialog__body{
+    text-align: right;
+    padding: 30px 90px!important;
+}
+.addInfoDialog .inputInfo input,.userConfiguration .inputInfo input{
+    width: 156px;
+}
+
+.addInfoDialog .inputInfo,.userConfiguration .inputInfo{
+    width: 100%!important;
+}
+.addInfoDialog .inputInfo input,.userConfiguration .inputInfo input{
+    text-align: left;
+    text-indent: 10px;
+    float: right;
+}
+.addInfoDialog .inputInfo .iuputSpan,.userConfiguration .inputInfo .iuputSpan{
+    float: left;
+}
+.addInfoDialog .selectInfo,.userConfiguration .selectInfo {
+    width: 156px;
+    border-color:transparent!important;
+    background: #F0F0F0;
+    outline: none;
+    height: 25px;
+    border-radius: 5px;
+    float: right;
+}
+.info .navRight h5{
+    color: #f22b2b!important;
+}
+.modalContent-pad{
+    padding: 10px 30px;
+}
+.ToSpan{
+    display: inline-block;
+    text-indent: 30px;
+}
+.inputInfo .anticon {
+    display: none;
+}
+.inputInfo .ant-select-selection__rendered{
+    border-radius: 5px!important;
+    height: 25px!important;
+}
+.inputInfo .ant-select-selection-selected-value,.inputInfo .commonInput{
+    line-height: 25px!important;
+}
+.inputInfo .ant-select-selection{
+    height: 25px;
+}
+.inputInfo .ant-select{
+    width: 156px!important;
+    vertical-align: top;
+}
+.inputInfo .commonInput{
+    width: 156px!important;
+    display: inline-block;
+    float: right;
+}
+.inputInfo .commonInput .ant-select-selection-selected-value{
+    text-indent: 10px;
+}
+.ant-select-dropdown-menu{
+    height: 100px!important;
+}
+.inputInfo .ant-calendar-picker{
+    float: right;
+}
+.inputInfo .ant-input{
+    border-color: transparent!important;
+}
+.maintain{
+    display: inline-block;
+    font-size: 12px;
+    padding: 0 10px;
+}
+
+.authoritySpan{
+    vertical-align: top!important;
+}
+.addInfoDialog .inputInfo input, .userConfiguration .inputInfo input {
+     /*text-indent: 0px!important;*/
+}
+.info-personal{
+    float: right!important;
+    cursor: default;
+}
+.info-icon{
+    font-size: 12px;
+    display: inline-block!important;
+    color: #ea0808;
+}
